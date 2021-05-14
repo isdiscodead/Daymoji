@@ -7,50 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F4E0545026467970007C1349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E0544F26467970007C1349 /* AppDelegate.swift */; };
-		F4E0545226467970007C1349 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E0545126467970007C1349 /* SceneDelegate.swift */; };
-		F4E0545426467970007C1349 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E0545326467970007C1349 /* ViewController.swift */; };
-		F4E0545726467970007C1349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E0545526467970007C1349 /* Main.storyboard */; };
+		D258E33E264CC769007BEEF3 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258E33D264CC769007BEEF3 /* CustomCell.swift */; };
+		D258E340264CCDB5007BEEF3 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258E33F264CCDB5007BEEF3 /* PageCell.swift */; };
+		D258E342264CCDCB007BEEF3 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D258E341264CCDCB007BEEF3 /* CustomCell.xib */; };
+		D258E344264CCE00007BEEF3 /* PageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D258E343264CCE00007BEEF3 /* PageCell.xib */; };
+		D258E355264CCE72007BEEF3 /* NSObject + reusableIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258E354264CCE72007BEEF3 /* NSObject + reusableIdentifier.swift */; };
+		D258E357264CCE77007BEEF3 /* CustomMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258E356264CCE77007BEEF3 /* CustomMenuBar.swift */; };
+		D258E359264CCEBB007BEEF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258E358264CCEBB007BEEF3 /* AppDelegate.swift */; };
+		D258E35B264CCF3A007BEEF3 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258E35A264CCF1F007BEEF3 /* MainVC.swift */; };
 		F4E0545A26467970007C1349 /* Daymoji.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4E0545826467970007C1349 /* Daymoji.xcdatamodeld */; };
 		F4E0545C26467972007C1349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E0545B26467972007C1349 /* Assets.xcassets */; };
 		F4E0545F26467972007C1349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E0545D26467972007C1349 /* LaunchScreen.storyboard */; };
-		F4E0546A26467973007C1349 /* DaymojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E0546926467973007C1349 /* DaymojiTests.swift */; };
-		F4E0547526467973007C1349 /* DaymojiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E0547426467973007C1349 /* DaymojiUITests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F4E0546626467973007C1349 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F4E0544426467970007C1349 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F4E0544B26467970007C1349;
-			remoteInfo = Daymoji;
-		};
-		F4E0547126467973007C1349 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F4E0544426467970007C1349 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F4E0544B26467970007C1349;
-			remoteInfo = Daymoji;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		D258E33D264CC769007BEEF3 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		D258E33F264CCDB5007BEEF3 /* PageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageCell.swift; path = "../../../../../Downloads/tistory-ios-master/CustomTabBar/CustomTabBar/Cells/PageCell.swift"; sourceTree = "<group>"; };
+		D258E341264CCDCB007BEEF3 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomCell.xib; path = "../../../../../Downloads/tistory-ios-master/CustomTabBar/CustomTabBar/Cells/CustomCell.xib"; sourceTree = "<group>"; };
+		D258E343264CCE00007BEEF3 /* PageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PageCell.xib; path = "../../../../../Downloads/tistory-ios-master/CustomTabBar/CustomTabBar/Cells/PageCell.xib"; sourceTree = "<group>"; };
+		D258E351264CCE51007BEEF3 /* DaymojiTests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DaymojiTests copy-Info.plist"; path = "/Users/gimseonghyeon/Desktop/develope/Daymoji-main/DaymojiTests copy-Info.plist"; sourceTree = "<absolute>"; };
+		D258E354264CCE72007BEEF3 /* NSObject + reusableIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSObject + reusableIdentifier.swift"; path = "../../../../Downloads/tistory-ios-master/CustomTabBar/CustomTabBar/Extensions/NSObject + reusableIdentifier.swift"; sourceTree = "<group>"; };
+		D258E356264CCE77007BEEF3 /* CustomMenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomMenuBar.swift; path = "../../../../Downloads/tistory-ios-master/CustomTabBar/CustomTabBar/Views/CustomMenuBar.swift"; sourceTree = "<group>"; };
+		D258E358264CCEBB007BEEF3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../../Downloads/tistory-ios-master/CustomTabBar/CustomTabBar/AppDelegate.swift"; sourceTree = "<group>"; };
+		D258E35A264CCF1F007BEEF3 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		F4E0544C26467970007C1349 /* Daymoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Daymoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4E0544F26467970007C1349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4E0545126467970007C1349 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F4E0545326467970007C1349 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F4E0545626467970007C1349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4E0545926467970007C1349 /* Daymoji.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Daymoji.xcdatamodel; sourceTree = "<group>"; };
 		F4E0545B26467972007C1349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4E0545E26467972007C1349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4E0546026467972007C1349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4E0546526467973007C1349 /* DaymojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaymojiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4E0546926467973007C1349 /* DaymojiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaymojiTests.swift; sourceTree = "<group>"; };
-		F4E0546B26467973007C1349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4E0547026467973007C1349 /* DaymojiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaymojiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4E0547426467973007C1349 /* DaymojiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaymojiUITests.swift; sourceTree = "<group>"; };
-		F4E0547626467973007C1349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,30 +45,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4E0546226467973007C1349 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4E0546D26467973007C1349 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D258E33C264CC747007BEEF3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D258E343264CCE00007BEEF3 /* PageCell.xib */,
+				D258E341264CCDCB007BEEF3 /* CustomCell.xib */,
+				D258E33F264CCDB5007BEEF3 /* PageCell.swift */,
+				D258E33D264CC769007BEEF3 /* CustomCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		F4E0544326467970007C1349 = {
 			isa = PBXGroup;
 			children = (
 				F4E0544E26467970007C1349 /* Daymoji */,
-				F4E0546826467973007C1349 /* DaymojiTests */,
-				F4E0547326467973007C1349 /* DaymojiUITests */,
 				F4E0544D26467970007C1349 /* Products */,
+				D258E351264CCE51007BEEF3 /* DaymojiTests copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				F4E0544C26467970007C1349 /* Daymoji.app */,
-				F4E0546526467973007C1349 /* DaymojiTests.xctest */,
-				F4E0547026467973007C1349 /* DaymojiUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,34 +79,17 @@
 		F4E0544E26467970007C1349 /* Daymoji */ = {
 			isa = PBXGroup;
 			children = (
-				F4E0544F26467970007C1349 /* AppDelegate.swift */,
-				F4E0545126467970007C1349 /* SceneDelegate.swift */,
-				F4E0545326467970007C1349 /* ViewController.swift */,
-				F4E0545526467970007C1349 /* Main.storyboard */,
+				D258E35A264CCF1F007BEEF3 /* MainVC.swift */,
+				D258E358264CCEBB007BEEF3 /* AppDelegate.swift */,
+				D258E354264CCE72007BEEF3 /* NSObject + reusableIdentifier.swift */,
+				D258E356264CCE77007BEEF3 /* CustomMenuBar.swift */,
+				D258E33C264CC747007BEEF3 /* Cells */,
 				F4E0545B26467972007C1349 /* Assets.xcassets */,
 				F4E0545D26467972007C1349 /* LaunchScreen.storyboard */,
 				F4E0546026467972007C1349 /* Info.plist */,
 				F4E0545826467970007C1349 /* Daymoji.xcdatamodeld */,
 			);
 			path = Daymoji;
-			sourceTree = "<group>";
-		};
-		F4E0546826467973007C1349 /* DaymojiTests */ = {
-			isa = PBXGroup;
-			children = (
-				F4E0546926467973007C1349 /* DaymojiTests.swift */,
-				F4E0546B26467973007C1349 /* Info.plist */,
-			);
-			path = DaymojiTests;
-			sourceTree = "<group>";
-		};
-		F4E0547326467973007C1349 /* DaymojiUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F4E0547426467973007C1349 /* DaymojiUITests.swift */,
-				F4E0547626467973007C1349 /* Info.plist */,
-			);
-			path = DaymojiUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,42 +112,6 @@
 			productReference = F4E0544C26467970007C1349 /* Daymoji.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F4E0546426467973007C1349 /* DaymojiTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F4E0547C26467973007C1349 /* Build configuration list for PBXNativeTarget "DaymojiTests" */;
-			buildPhases = (
-				F4E0546126467973007C1349 /* Sources */,
-				F4E0546226467973007C1349 /* Frameworks */,
-				F4E0546326467973007C1349 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F4E0546726467973007C1349 /* PBXTargetDependency */,
-			);
-			name = DaymojiTests;
-			productName = DaymojiTests;
-			productReference = F4E0546526467973007C1349 /* DaymojiTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F4E0546F26467973007C1349 /* DaymojiUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F4E0547F26467973007C1349 /* Build configuration list for PBXNativeTarget "DaymojiUITests" */;
-			buildPhases = (
-				F4E0546C26467973007C1349 /* Sources */,
-				F4E0546D26467973007C1349 /* Frameworks */,
-				F4E0546E26467973007C1349 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F4E0547226467973007C1349 /* PBXTargetDependency */,
-			);
-			name = DaymojiUITests;
-			productName = DaymojiUITests;
-			productReference = F4E0547026467973007C1349 /* DaymojiUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,14 +123,6 @@
 				TargetAttributes = {
 					F4E0544B26467970007C1349 = {
 						CreatedOnToolsVersion = 12.4;
-					};
-					F4E0546426467973007C1349 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = F4E0544B26467970007C1349;
-					};
-					F4E0546F26467973007C1349 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = F4E0544B26467970007C1349;
 					};
 				};
 			};
@@ -223,8 +140,6 @@
 			projectRoot = "";
 			targets = (
 				F4E0544B26467970007C1349 /* Daymoji */,
-				F4E0546426467973007C1349 /* DaymojiTests */,
-				F4E0546F26467973007C1349 /* DaymojiUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,21 +151,8 @@
 			files = (
 				F4E0545F26467972007C1349 /* LaunchScreen.storyboard in Resources */,
 				F4E0545C26467972007C1349 /* Assets.xcassets in Resources */,
-				F4E0545726467970007C1349 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4E0546326467973007C1349 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4E0546E26467973007C1349 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				D258E342264CCDCB007BEEF3 /* CustomCell.xib in Resources */,
+				D258E344264CCE00007BEEF3 /* PageCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,53 +163,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4E0545426467970007C1349 /* ViewController.swift in Sources */,
 				F4E0545A26467970007C1349 /* Daymoji.xcdatamodeld in Sources */,
-				F4E0545026467970007C1349 /* AppDelegate.swift in Sources */,
-				F4E0545226467970007C1349 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4E0546126467973007C1349 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4E0546A26467973007C1349 /* DaymojiTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4E0546C26467973007C1349 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4E0547526467973007C1349 /* DaymojiUITests.swift in Sources */,
+				D258E340264CCDB5007BEEF3 /* PageCell.swift in Sources */,
+				D258E357264CCE77007BEEF3 /* CustomMenuBar.swift in Sources */,
+				D258E359264CCEBB007BEEF3 /* AppDelegate.swift in Sources */,
+				D258E33E264CC769007BEEF3 /* CustomCell.swift in Sources */,
+				D258E355264CCE72007BEEF3 /* NSObject + reusableIdentifier.swift in Sources */,
+				D258E35B264CCF3A007BEEF3 /* MainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		F4E0546726467973007C1349 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F4E0544B26467970007C1349 /* Daymoji */;
-			targetProxy = F4E0546626467973007C1349 /* PBXContainerItemProxy */;
-		};
-		F4E0547226467973007C1349 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F4E0544B26467970007C1349 /* Daymoji */;
-			targetProxy = F4E0547126467973007C1349 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		F4E0545526467970007C1349 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4E0545626467970007C1349 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F4E0545D26467972007C1349 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -440,8 +308,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Daymoji/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,7 +316,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = msg.Daymoji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,8 +326,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Daymoji/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -469,89 +334,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = msg.Daymoji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		F4E0547D26467973007C1349 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DaymojiTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = msg.DaymojiTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daymoji.app/Daymoji";
-			};
-			name = Debug;
-		};
-		F4E0547E26467973007C1349 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DaymojiTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = msg.DaymojiTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daymoji.app/Daymoji";
-			};
-			name = Release;
-		};
-		F4E0548026467973007C1349 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DaymojiUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = msg.DaymojiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Daymoji;
-			};
-			name = Debug;
-		};
-		F4E0548126467973007C1349 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DaymojiUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = msg.DaymojiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Daymoji;
 			};
 			name = Release;
 		};
@@ -572,24 +356,6 @@
 			buildConfigurations = (
 				F4E0547A26467973007C1349 /* Debug */,
 				F4E0547B26467973007C1349 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F4E0547C26467973007C1349 /* Build configuration list for PBXNativeTarget "DaymojiTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F4E0547D26467973007C1349 /* Debug */,
-				F4E0547E26467973007C1349 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F4E0547F26467973007C1349 /* Build configuration list for PBXNativeTarget "DaymojiUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F4E0548026467973007C1349 /* Debug */,
-				F4E0548126467973007C1349 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
