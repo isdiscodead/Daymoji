@@ -7,30 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D258E33E264CC769007BEEF3 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258E33D264CC769007BEEF3 /* CustomCell.swift */; };
-		D258E340264CCDB5007BEEF3 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258E33F264CCDB5007BEEF3 /* PageCell.swift */; };
-		D258E342264CCDCB007BEEF3 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D258E341264CCDCB007BEEF3 /* CustomCell.xib */; };
-		D258E344264CCE00007BEEF3 /* PageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D258E343264CCE00007BEEF3 /* PageCell.xib */; };
-		D258E355264CCE72007BEEF3 /* NSObject + reusableIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258E354264CCE72007BEEF3 /* NSObject + reusableIdentifier.swift */; };
-		D258E357264CCE77007BEEF3 /* CustomMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258E356264CCE77007BEEF3 /* CustomMenuBar.swift */; };
-		D258E359264CCEBB007BEEF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258E358264CCEBB007BEEF3 /* AppDelegate.swift */; };
-		D258E35B264CCF3A007BEEF3 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D258E35A264CCF1F007BEEF3 /* MainVC.swift */; };
+		D2ED6A23264D3C8700DD8C28 /* TabBarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED6A22264D3C8700DD8C28 /* TabBarCollectionViewCell.swift */; };
+		D2ED6A26264D3C9600DD8C28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2ED6A24264D3C9600DD8C28 /* Main.storyboard */; };
+		D2ED6A28264D3CA900DD8C28 /* TabPageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ED6A27264D3CA900DD8C28 /* TabPageCollectionViewCell.swift */; };
+		F4E0545026467970007C1349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E0544F26467970007C1349 /* AppDelegate.swift */; };
+		F4E0545226467970007C1349 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E0545126467970007C1349 /* SceneDelegate.swift */; };
+		F4E0545426467970007C1349 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E0545326467970007C1349 /* ViewController.swift */; };
 		F4E0545A26467970007C1349 /* Daymoji.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4E0545826467970007C1349 /* Daymoji.xcdatamodeld */; };
 		F4E0545C26467972007C1349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E0545B26467972007C1349 /* Assets.xcassets */; };
 		F4E0545F26467972007C1349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E0545D26467972007C1349 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D258E33D264CC769007BEEF3 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
-		D258E33F264CCDB5007BEEF3 /* PageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageCell.swift; path = "../../../../../Downloads/tistory-ios-master/CustomTabBar/CustomTabBar/Cells/PageCell.swift"; sourceTree = "<group>"; };
-		D258E341264CCDCB007BEEF3 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomCell.xib; path = "../../../../../Downloads/tistory-ios-master/CustomTabBar/CustomTabBar/Cells/CustomCell.xib"; sourceTree = "<group>"; };
-		D258E343264CCE00007BEEF3 /* PageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PageCell.xib; path = "../../../../../Downloads/tistory-ios-master/CustomTabBar/CustomTabBar/Cells/PageCell.xib"; sourceTree = "<group>"; };
-		D258E351264CCE51007BEEF3 /* DaymojiTests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DaymojiTests copy-Info.plist"; path = "/Users/gimseonghyeon/Desktop/develope/Daymoji-main/DaymojiTests copy-Info.plist"; sourceTree = "<absolute>"; };
-		D258E354264CCE72007BEEF3 /* NSObject + reusableIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSObject + reusableIdentifier.swift"; path = "../../../../Downloads/tistory-ios-master/CustomTabBar/CustomTabBar/Extensions/NSObject + reusableIdentifier.swift"; sourceTree = "<group>"; };
-		D258E356264CCE77007BEEF3 /* CustomMenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomMenuBar.swift; path = "../../../../Downloads/tistory-ios-master/CustomTabBar/CustomTabBar/Views/CustomMenuBar.swift"; sourceTree = "<group>"; };
-		D258E358264CCEBB007BEEF3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../../Downloads/tistory-ios-master/CustomTabBar/CustomTabBar/AppDelegate.swift"; sourceTree = "<group>"; };
-		D258E35A264CCF1F007BEEF3 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		D2ED6A22264D3C8700DD8C28 /* TabBarCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarCollectionViewCell.swift; path = ../../prac_TabBarAnimation/prac_TabBarAnimation/TabBarCollectionViewCell.swift; sourceTree = "<group>"; };
+		D2ED6A25264D3C9600DD8C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../prac_TabBarAnimation/prac_TabBarAnimation/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2ED6A27264D3CA900DD8C28 /* TabPageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabPageCollectionViewCell.swift; path = ../../prac_TabBarAnimation/prac_TabBarAnimation/TabPageCollectionViewCell.swift; sourceTree = "<group>"; };
 		F4E0544C26467970007C1349 /* Daymoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Daymoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E0544F26467970007C1349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4E0545126467970007C1349 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F4E0545326467970007C1349 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F4E0545926467970007C1349 /* Daymoji.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Daymoji.xcdatamodel; sourceTree = "<group>"; };
 		F4E0545B26467972007C1349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4E0545E26467972007C1349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,23 +43,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D258E33C264CC747007BEEF3 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				D258E343264CCE00007BEEF3 /* PageCell.xib */,
-				D258E341264CCDCB007BEEF3 /* CustomCell.xib */,
-				D258E33F264CCDB5007BEEF3 /* PageCell.swift */,
-				D258E33D264CC769007BEEF3 /* CustomCell.swift */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
 		F4E0544326467970007C1349 = {
 			isa = PBXGroup;
 			children = (
 				F4E0544E26467970007C1349 /* Daymoji */,
 				F4E0544D26467970007C1349 /* Products */,
-				D258E351264CCE51007BEEF3 /* DaymojiTests copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,11 +62,12 @@
 		F4E0544E26467970007C1349 /* Daymoji */ = {
 			isa = PBXGroup;
 			children = (
-				D258E35A264CCF1F007BEEF3 /* MainVC.swift */,
-				D258E358264CCEBB007BEEF3 /* AppDelegate.swift */,
-				D258E354264CCE72007BEEF3 /* NSObject + reusableIdentifier.swift */,
-				D258E356264CCE77007BEEF3 /* CustomMenuBar.swift */,
-				D258E33C264CC747007BEEF3 /* Cells */,
+				F4E0544F26467970007C1349 /* AppDelegate.swift */,
+				F4E0545126467970007C1349 /* SceneDelegate.swift */,
+				F4E0545326467970007C1349 /* ViewController.swift */,
+				D2ED6A22264D3C8700DD8C28 /* TabBarCollectionViewCell.swift */,
+				D2ED6A24264D3C9600DD8C28 /* Main.storyboard */,
+				D2ED6A27264D3CA900DD8C28 /* TabPageCollectionViewCell.swift */,
 				F4E0545B26467972007C1349 /* Assets.xcassets */,
 				F4E0545D26467972007C1349 /* LaunchScreen.storyboard */,
 				F4E0546026467972007C1349 /* Info.plist */,
@@ -151,8 +135,7 @@
 			files = (
 				F4E0545F26467972007C1349 /* LaunchScreen.storyboard in Resources */,
 				F4E0545C26467972007C1349 /* Assets.xcassets in Resources */,
-				D258E342264CCDCB007BEEF3 /* CustomCell.xib in Resources */,
-				D258E344264CCE00007BEEF3 /* PageCell.xib in Resources */,
+				D2ED6A26264D3C9600DD8C28 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,19 +146,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4E0545426467970007C1349 /* ViewController.swift in Sources */,
+				D2ED6A23264D3C8700DD8C28 /* TabBarCollectionViewCell.swift in Sources */,
 				F4E0545A26467970007C1349 /* Daymoji.xcdatamodeld in Sources */,
-				D258E340264CCDB5007BEEF3 /* PageCell.swift in Sources */,
-				D258E357264CCE77007BEEF3 /* CustomMenuBar.swift in Sources */,
-				D258E359264CCEBB007BEEF3 /* AppDelegate.swift in Sources */,
-				D258E33E264CC769007BEEF3 /* CustomCell.swift in Sources */,
-				D258E355264CCE72007BEEF3 /* NSObject + reusableIdentifier.swift in Sources */,
-				D258E35B264CCF3A007BEEF3 /* MainVC.swift in Sources */,
+				D2ED6A28264D3CA900DD8C28 /* TabPageCollectionViewCell.swift in Sources */,
+				F4E0545026467970007C1349 /* AppDelegate.swift in Sources */,
+				F4E0545226467970007C1349 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		D2ED6A24264D3C9600DD8C28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2ED6A25264D3C9600DD8C28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		F4E0545D26467972007C1349 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
