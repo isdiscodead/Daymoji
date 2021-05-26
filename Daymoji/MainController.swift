@@ -7,7 +7,8 @@
 
 import UIKit
 
-class MainController: UITabBarController {
+class MainController : UITabBarController {
+    // 메인컨트롤러 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
